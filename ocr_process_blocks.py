@@ -13,7 +13,7 @@ def Chuyen_PDF_img(VanBan):
     try:
         pages = convert_from_path(VanBan)
     except:
-        print("khong đúng định dạng")
+        print("không đúng định dạng")
         return None
     TapHop_img = []
     for j, page in enumerate(pages):
